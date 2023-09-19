@@ -151,7 +151,7 @@ join_df.write.format("noop").mode("overwrite").save()
 # MAGIC %md
 # MAGIC # Optimisations applied
 # MAGIC * Pipeline metrics:
-# MAGIC   * Before: 200 seconds
-# MAGIC   * After:  seconds
+# MAGIC   * Before: 252 seconds
+# MAGIC   * After:  186 seconds
 # MAGIC * AQE auto shuffle partition tuning optimization
 # MAGIC * Manual shuffle partition fine tuning
