@@ -179,7 +179,7 @@ join_df.write.format("noop").mode("overwrite").save()
 # MAGIC %md
 # MAGIC # Optimisations applied
 # MAGIC * Pipeline metrics:
-# MAGIC   * Before: 200 seconds
-# MAGIC   * After:  seconds
+# MAGIC   * Before: 74 seconds
+# MAGIC   * After: 3 seconds
 # MAGIC * AQE skew join optimization
 # MAGIC * Broadcast join
